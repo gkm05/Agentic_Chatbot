@@ -40,4 +40,4 @@ def chat_endpoint(request: RequestState):
 # Run App and explore swagger UI
 if __name__ =="__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port =1001)
+    uvicorn.run(app, host="0.0.0.0", port =8000)
